@@ -2,5 +2,5 @@ We try to hash the ethereum address and compress the networkEdges, but ths size 
 So we also upload this data to Baidu Cloud, and the url is: , the password is: . No password in compression.
 Files in this compression are newestlands, newestinterone, newesttransone, newesintertwo, newesttranstwo, newestinterthree, newesttransthree.
 Don't care these prefixes in files names, wo get these three network edges from transactions and internal transactions, 
-so it is reasonable that we split edges into two kinds of files.In the edge file data is like fromaddress, toaddress and weight.
-To decrease size for files, we hash the ethereum address and store the mapping in newestlands, you can understand the data in newestlands easily.
+so it is reasonable that we split edges into two kinds of files.In the edge files, data is fromaddress, toaddress and weight in every line.
+To decrease the size for files, we hash the ethereum address and store the mapping in newestlands, you can understand the data in newestlands easily.
