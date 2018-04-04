@@ -9,6 +9,10 @@ from math import sqrt
 import numpy as np  
 from numpy import linalg as la
 
+#
+#Aim to analysis the cig, network has been merged by single edges.
+#
+
 def getpearsonpvalue(p5,p6):
 	dis_p = p5
 	tau_p = p6
