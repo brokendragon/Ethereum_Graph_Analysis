@@ -159,22 +159,3 @@ endtime = datetime.datetime.now()
 print (endtime - starttime).seconds
 print len(filelist)
 filelist.clear()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
