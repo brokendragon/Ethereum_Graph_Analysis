@@ -8,6 +8,10 @@ from math import sqrt
 import numpy as np  
 from numpy import linalg as la
 
+#
+#Aim to analysis the ccg, network has been merged by single edges.
+#
+
 def multipl(a,b):
 	sumofab=0.0
 	for i in range(len(a)):
@@ -23,13 +27,10 @@ def corrcoef(y):
 	#求和
 	sum1=sum(x)
 	sum2=sum(y)
-    #求乘积之和
 	sumofxy=multipl(x,y)
-    #求平方和
 	sumofx2 = sum([pow(i,2) for i in x])
 	sumofy2 = sum([pow(j,2) for j in y])
 	num=sumofxy-(float(sum1)*float(sum2)/n)
-    #计算皮尔逊相关系数
 	den=sqrt((sumofx2-float(sum1**2)/n)*(sumofy2-float(sum2**2)/n))
 	return num/den
 
@@ -277,7 +278,7 @@ plt.show()'''
 
 '''#Cycles!!!!!
 #print nx.cycle_basis(G)     #not implemented for directed type
-print nx.simple_cycles(G)   #A generator of lists of cycles  2图一定不能用，因为没有环
+print nx.simple_cycles(G)   #A generator of lists of cycles  
 print nx.find_cycle(G)'''
 
 #flow_hierarchy
@@ -408,7 +409,7 @@ for k,v in PRlist:
 #Cycles!!!!!
 print '$Cycles'
 cyclelist = []
-for i in nx.simple_cycles(G):   #A generator of lists of cycles  2图一定不能用，因为没有环
+for i in nx.simple_cycles(G):   #A generator of lists of cycles  
 	cyclelist.append(len(i))
 #print retdic(cyclelist)
 print 'break'
