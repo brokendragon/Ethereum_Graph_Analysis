@@ -1,3 +1,5 @@
 After compress the basic transactions data, the size is over 4GB. While it is over 80GB without compression.
 So we upload the sourceTransactions to Baidu Cloud, and you can get data by this url: , and the password is: .
 No password for compression, if this url is disabled, please contact us.
+
+We split the transaction into transactions and internal transactions, the internal transactions trigger by opcodes like Create, Call and so on.
