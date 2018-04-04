@@ -5,6 +5,10 @@ import os
 import re
 import datetime
 
+#
+#this code aim to extract single edge from transactions, single edge means that single call/create to record.
+#
+
 def deallist(listtemp_s):
 	typename = listtemp_s[0]        ##use by find
 	fromlist = listtemp_s[3].split(' ')
