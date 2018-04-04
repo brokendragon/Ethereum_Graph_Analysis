@@ -24,7 +24,6 @@ def corrcoef(y):
 	n=len(x)
 	#print x
 	#print y
-	#求和
 	sum1=sum(x)
 	sum2=sum(y)
 	sumofxy=multipl(x,y)
