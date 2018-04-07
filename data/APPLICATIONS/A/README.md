@@ -1,5 +1,7 @@
 7c20-wcc is the wcc(weakly-connect-component) that obtains address 7c20 at the CCG.
 3898-wcc is the wcc(weakly-connect-component) that obtains address 3898 at the CCG.
+8b3b-wcc is the wcc(weakly-connect-component) that obtains address 3898 at the CCG.
+29df-wcc is the wcc(weakly-connect-component) that obtains address 3898 at the CCG.
 We can use these files with CCG to get each address's outdegree(smart contracts they has created).
 We can use these files with CIG to get each address's indegree(times they has been called).
 We can use these files with MFG to get each address's sum of edges weight(ether they has transfered).
